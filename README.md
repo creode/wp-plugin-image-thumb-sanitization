@@ -1,3 +1,6 @@
+#Image thumb sanitization
+##Wordpress plugin
+
 If there is a property called "thumb" in the json string stored in a _wp_attachment_metadata row of the wp_postmeta table
 (which can be added by a hacker with admin access by manipulating a form within the media section of Wordpress using a browser console),
 this string can relate to any file on the server, which will be deleted whenever the image is deleted,
