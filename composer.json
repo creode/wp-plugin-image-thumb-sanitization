@@ -1,0 +1,12 @@
+{
+	"name": "wordpress/image-thumb-sanitization",
+	"type": "wordpress-plugin",
+	"description": "Removes sections of thumb path within attachment metadata when updated, if path attempts to access another directory.",
+    "authors": [
+        {
+            "name": "Creode",
+            "email": "creode@creode.co.uk",
+            "homepage": "http://www.creode.co.uk"
+        }
+    ]
+}
